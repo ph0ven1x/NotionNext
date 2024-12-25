@@ -25,7 +25,7 @@ const BLOG = {
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'ph0ven1x', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '编程爱好者/网安从业者', // 作者简介
+  BIO: process.env.NEXT_PUBLIC_BIO || '一个普通的干饭人🍚', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://ph0ven1x.com', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '渗透测试, 安全研究, 网络安全, Web安全, 红队, 攻防, 蓝队', // 网站关键词 英文逗号隔开
 
